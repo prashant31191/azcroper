@@ -1,0 +1,23 @@
+<resources>
+
+    <color name="highlight">#f3f3f3</color>
+    <color name="clr_divider_gray">#e3e3e3</color>
+    <color name="white">#ffffff</color>
+    <color name="btn_txt_brown_color">#546E7A</color>
+    <color name="clrEtText">#56d6a2</color>
+
+    <dimen name="m_16sp">16dp</dimen>
+    <dimen name="m_divider_1dp">2dp</dimen>
+    <dimen name="screen_m_d14">14dp</dimen>
+
+
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="behavior_peekHeight">400dp</item>
+    </style>
+
+</resources>
